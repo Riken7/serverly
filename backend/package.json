@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
+    "js-yaml": "^4.1.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
