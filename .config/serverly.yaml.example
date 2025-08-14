@@ -1,0 +1,16 @@
+port: 3000
+sections:
+  uptime: true
+  stats: true
+  disk: true
+  services:
+    enabled: true
+    filter:
+      - ssh
+      - bluetooth
+  docker:
+    enabled: false
+    filter:
+      - nginx
+      - mysql
+refreshInterval: 5
