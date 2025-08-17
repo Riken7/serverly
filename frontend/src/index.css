@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 html, body, #root {
-  margin: 0;
+  margin: 7;
   padding: 0;
   height: 100%;
   background-color: #282828;
